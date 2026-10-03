@@ -1,0 +1,28 @@
+{
+    "id": "sidebar-tidy-zen",
+    "name": "Sidebar Tidy (VPN/Réglages en bas + URL domaine seul)",
+    "description": "Déplace VPN et Réglages dans la barre du bas de la sidebar, force l'affichage du domaine seul dans l'URL, atténue les boutons de navigation et affine la barre d'adresse.",
+    "scripts": {
+        "sidebar_tidy.uc.js": {
+            "include": [
+                "chrome://browser/content/browser.xhtml"
+            ]
+        }
+    },
+  
+    "author": "custom",
+    "version": "1.0",
+    "tags": [
+        "sine",
+        "sidebar",
+        "urlbar",
+        "fx-autoconfig",
+        "JavaScript"
+    ],
+    "preferences": "preferences.json",
+    "createdAt": "2026-10-04",
+    "updatedAt": "2026-10-04",
+    "fork": [
+        "zen"
+    ]
+}

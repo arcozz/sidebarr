@@ -1,0 +1,23 @@
+[
+  {
+    "property": "extension.sidebar-tidy.move-buttons",
+    "label": "Déplacer VPN + Réglages dans la barre du bas",
+    "type": "checkbox",
+    "defaultValue": true,
+    "description": "Place les boutons VPN et Réglages dans #zen-sidebar-foot-buttons."
+  },
+  {
+    "property": "extension.sidebar-tidy.force-domain-only",
+    "label": "Forcer l'URL en domaine seul",
+    "type": "checkbox",
+    "defaultValue": true,
+    "description": "Quand la barre d'adresse n'est pas active, n'affiche que le nom de domaine (sans www ni chemin)."
+  },
+  {
+    "property": "extension.sidebar-tidy.debug",
+    "label": "Debug (console)",
+    "type": "checkbox",
+    "defaultValue": false,
+    "description": "Logs dans la Console du navigateur (Ctrl+Shift+J)."
+  }
+]
